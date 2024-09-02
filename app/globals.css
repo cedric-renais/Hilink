@@ -139,12 +139,23 @@ body {
   /*************/
   /** BUTTONS **/
   /*************/
-
-  .button-green {
-    @apply bg-green-9 px-8 py-4 text-gray-1 transition-colors hover:bg-gray-9;
+  .button-gray {
+    @apply border-gray-1 bg-gray-9 px-8 py-4 text-gray-1 transition-colors hover:bg-gray-10;
   }
 
-  .button-gray {
-    @apply border-gray-1 bg-gray-9 px-8 py-4 text-gray-1;
+  .button-green {
+    @apply bg-green-9 px-8 py-4 text-gray-1 transition-colors hover:bg-green-10;
+  }
+
+  .button-white {
+    @apply border-gray-5 bg-white px-8 py-4 transition-colors hover:border-green-9;
+  }
+
+  /**************/
+  /** HERO-MAP **/
+  /**************/
+
+  .hero-map {
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 }

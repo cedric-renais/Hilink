@@ -69,6 +69,9 @@ module.exports = {
           10: '#5C4500',
         },
       },
+      backgroundImage: {
+        'pattern-2': "url('/assets/images/pattern-2.webp')",
+      },
       screens: {
         xs: '400px',
         '3xl': '1680px',

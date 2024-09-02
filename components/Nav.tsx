@@ -24,7 +24,7 @@ const Nav = () => {
     <nav className="max-wrapper padding-wrapper flex-between relative z-30 py-5">
       <Link href="#">
         <Image
-          src="/assets/images/hilink-logo.svg"
+          src="/assets/images/hilink-logo.webp"
           alt="Hilink, page d'accueil."
           width={144}
           height={40}
@@ -47,7 +47,7 @@ const Nav = () => {
           type="button"
           title="Login"
           icon="/assets/icons/user.svg"
-          variant="button-green"
+          variant="button-gray"
         />
       </div>
       <button
