@@ -33,12 +33,12 @@ const Hero = () => {
                 />
               ))}
           </div>
-          <p className="bold-16 lg:bold-20 text-blue-9">
+          <span className="bold-16 lg:bold-20 text-blue-9">
             198k
             <span className="regular-16 lg:regular-20 ml-1.5">
               Avis excellents
             </span>
-          </p>
+          </span>
         </div>
         <div className="flex w-full flex-col gap-3 md:flex-row">
           <Button
@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl border border-gray-3 bg-gray-9 px-7 py-8 shadow shadow-gray-9">
           <div className="flex flex-col">
             <div className="flex-between">
-              <p className="regular-16 text-gray-1">Localisation</p>
+              <span className="regular-16 text-gray-1">Localisation</span>
               <Image
                 src="/assets/icons/close-white.svg"
                 alt=""
@@ -66,17 +66,17 @@ const Hero = () => {
                 height={24}
               />
             </div>
-            <p className="bold-20 text-gray-1">Aguas Calientes</p>
+            <span className="bold-20 text-gray-1">Aguas Calientes</span>
           </div>
 
           <div className="flex-between">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-1">Distance</p>
-              <p className="bold-20 text-gray-1">278,41 km</p>
+              <span className="regular-16 block text-gray-1">Distance</span>
+              <span className="bold-20 text-gray-1">278,41 km</span>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-1">Altitude </p>
-              <p className="bold-20 text-gray-1">2,040 km</p>
+              <span className="regular-16 block text-gray-1">Altitude </span>
+              <span className="bold-20 text-gray-1">2,040 km</span>
             </div>
           </div>
         </div>

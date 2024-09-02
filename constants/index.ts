@@ -8,3 +8,11 @@ export const nav_links = [
   { href: '#', key: 'pricing', label: 'Tarification' },
   { href: '#', key: 'contact', label: 'Contact' },
 ];
+
+// CAMP SECTION
+export const peole_url = [
+  '/assets/images/person-1.webp',
+  '/assets/images/person-2.webp',
+  '/assets/images/person-3.webp',
+  '/assets/images/person-4.webp',
+];
