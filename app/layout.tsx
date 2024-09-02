@@ -1,3 +1,4 @@
+import Nav from '@/components/Nav';
 import type { Metadata } from 'next';
 import './globals.css';
 
@@ -13,7 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body>
+        <header>
+          <Nav />
+        </header>
+        <main className="relative overflow-hidden">{children}</main>
+      </body>
     </html>
   );
 }

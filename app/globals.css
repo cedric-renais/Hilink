@@ -130,3 +130,21 @@ body {
     @apply text-[88px] font-[700] leading-[120%];
   }
 }
+
+/****************/
+/** COMPONENTS **/
+/****************/
+
+@layer components {
+  /*************/
+  /** BUTTONS **/
+  /*************/
+
+  .button-green {
+    @apply bg-green-9 px-8 py-4 text-gray-1 transition-colors hover:bg-gray-9;
+  }
+
+  .button-gray {
+    @apply border-gray-1 bg-gray-9 px-8 py-4 text-gray-1;
+  }
+}
