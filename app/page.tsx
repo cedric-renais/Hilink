@@ -1,4 +1,5 @@
 import Camp from '@/layouts/Camp';
+import Guide from '@/layouts/Guide';
 import Hero from '@/layouts/Hero';
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Hero />
       <Camp />
+      <Guide />
     </>
   );
 };

@@ -1,0 +1,38 @@
+<svg width="26" height="167" viewBox="0 0 26 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_73_20)">
+<path d="M19 11C19 7.68629 16.3137 5 13 5C9.68629 5 7 7.68629 7 11V150C7 153.314 9.68629 156 13 156C16.3137 156 19 153.314 19 150V11Z" fill="#EEEEEE"/>
+<g filter="url(#filter0_f_73_20)">
+<path d="M20 13C20 9.13401 16.866 6 13 6C9.13401 6 6 9.13401 6 13C6 16.866 9.13401 20 13 20C16.866 20 20 16.866 20 13Z" fill="black"/>
+</g>
+<path d="M19.5 11C19.5 7.41015 16.5899 4.5 13 4.5C9.41015 4.5 6.5 7.41015 6.5 11C6.5 14.5899 9.41015 17.5 13 17.5C16.5899 17.5 19.5 14.5899 19.5 11Z" fill="black" stroke="white" stroke-width="3"/>
+<path d="M15 27C15 25.8954 14.1046 25 13 25C11.8954 25 11 25.8954 11 27C11 28.1046 11.8954 29 13 29C14.1046 29 15 28.1046 15 27Z" fill="#595959"/>
+<path d="M15 39C15 37.8954 14.1046 37 13 37C11.8954 37 11 37.8954 11 39C11 40.1046 11.8954 41 13 41C14.1046 41 15 40.1046 15 39Z" fill="#595959"/>
+<path d="M15 51C15 49.8954 14.1046 49 13 49C11.8954 49 11 49.8954 11 51C11 52.1046 11.8954 53 13 53C14.1046 53 15 52.1046 15 51Z" fill="#595959"/>
+<path d="M15 63C15 61.8954 14.1046 61 13 61C11.8954 61 11 61.8954 11 63C11 64.1046 11.8954 65 13 65C14.1046 65 15 64.1046 15 63Z" fill="#595959"/>
+<path d="M15 75C15 73.8954 14.1046 73 13 73C11.8954 73 11 73.8954 11 75C11 76.1046 11.8954 77 13 77C14.1046 77 15 76.1046 15 75Z" fill="#595959"/>
+<path d="M15 87C15 85.8954 14.1046 85 13 85C11.8954 85 11 85.8954 11 87C11 88.1046 11.8954 89 13 89C14.1046 89 15 88.1046 15 87Z" fill="#595959"/>
+<path d="M15 99C15 97.8954 14.1046 97 13 97C11.8954 97 11 97.8954 11 99C11 100.105 11.8954 101 13 101C14.1046 101 15 100.105 15 99Z" fill="#1A6140"/>
+<path d="M15 111C15 109.895 14.1046 109 13 109C11.8954 109 11 109.895 11 111C11 112.105 11.8954 113 13 113C14.1046 113 15 112.105 15 111Z" fill="#1A6140"/>
+<path d="M15 123C15 121.895 14.1046 121 13 121C11.8954 121 11 121.895 11 123C11 124.105 11.8954 125 13 125C14.1046 125 15 124.105 15 123Z" fill="#1A6140"/>
+<path d="M15 135C15 133.895 14.1046 133 13 133C11.8954 133 11 133.895 11 135C11 136.105 11.8954 137 13 137C14.1046 137 15 136.105 15 135Z" fill="#1A6140"/>
+<g filter="url(#filter1_f_73_20)">
+<path d="M20 154C20 150.134 16.866 147 13 147C9.13401 147 6 150.134 6 154C6 157.866 9.13401 161 13 161C16.866 161 20 157.866 20 154Z" fill="#1A6140"/>
+</g>
+<path d="M19.5 152C19.5 148.41 16.5899 145.5 13 145.5C9.41015 145.5 6.5 148.41 6.5 152C6.5 155.59 9.41015 158.5 13 158.5C16.5899 158.5 19.5 155.59 19.5 152Z" fill="#1A6140" stroke="white" stroke-width="3"/>
+</g>
+<defs>
+<filter id="filter0_f_73_20" x="0" y="0" width="26" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3" result="effect1_foregroundBlur_73_20"/>
+</filter>
+<filter id="filter1_f_73_20" x="0" y="141" width="26" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3" result="effect1_foregroundBlur_73_20"/>
+</filter>
+<clipPath id="clip0_73_20">
+<rect width="26" height="167" fill="white"/>
+</clipPath>
+</defs>
+</svg>

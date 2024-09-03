@@ -107,7 +107,12 @@ const Camp = () => {
           className={`ml-8 rounded-full border border-green-3 ${
             isAtStart ? 'bg-gray-7' : 'bg-green-9 hover:bg-green-10'
           } transition-colors`}
-          aria-label="Défiler vers la gauche"
+          aria-label={
+            isAtStart
+              ? 'Début du contenu, bouton désactivé'
+              : 'Défiler vers la gauche'
+          }
+          aria-disabled={isAtStart}
           onClick={scrollLeft}
           disabled={isAtStart}
         >
@@ -122,7 +127,12 @@ const Camp = () => {
           className={`ml-8 rounded-full border border-green-3 ${
             isAtEnd ? 'bg-gray-7' : 'bg-green-9 hover:bg-green-10'
           } transition-colors`}
-          aria-label="Défiler vers la droite"
+          aria-label={
+            isAtEnd
+              ? 'Fin du contenu, bouton désactivé'
+              : 'Défiler vers la droite'
+          }
+          aria-disabled={isAtEnd}
           onClick={scrollRight}
           disabled={isAtEnd}
         >
