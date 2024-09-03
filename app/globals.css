@@ -15,7 +15,7 @@
 /*******************/
 
 body {
-  @apply scroll-smooth;
+  @apply scroll-smooth bg-gray-1;
 }
 
 /***************/
@@ -144,11 +144,11 @@ body {
   }
 
   .button-green {
-    @apply bg-green-9 px-8 py-4 text-gray-1 transition-colors hover:bg-green-10;
+    @apply border-green-9 bg-green-9 px-8 py-4 text-gray-1 transition-colors hover:bg-green-10;
   }
 
   .button-white {
-    @apply border-gray-5 bg-white px-8 py-4 transition-colors hover:border-green-9;
+    @apply border-gray-5 bg-gray-1 px-8 py-4 text-gray-9 transition-colors hover:border-green-9;
   }
 
   /**************/
@@ -162,6 +162,16 @@ body {
   /* Camp */
   .camp-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
+  }
+
+  /* Feature-phone */
+  .feature-phone {
+    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex 3xl:left-0;
+  }
+
+  /* Get App */
+  .get-app {
+    @apply max-wrapper bg-pattern-1 relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gray-9 bg-cover bg-center bg-no-repeat px-6 py-12 text-gray-1 sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
@@ -178,11 +188,4 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-/*******************/
-/** FEATURE-PHONE **/
-/*******************/
-.feature-phone {
-  @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex 3xl:left-0;
 }
