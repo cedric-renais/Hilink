@@ -73,6 +73,7 @@ module.exports = {
         'pattern-2': "url('/assets/images/pattern-2.webp')",
         'img-1': "url('/assets/images/img-1.webp')",
         'img-2': "url('/assets/images/img-2.webp')",
+        feature: "url('/assets/images/feature.webp')",
       },
       screens: {
         xs: '400px',

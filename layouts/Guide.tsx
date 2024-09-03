@@ -28,7 +28,7 @@ const Guide = () => {
           width={1440}
           height={580}
         />
-        <div className="absolute flex gap-3 rounded-3xl border border-gray-5 bg-gray-1 py-8 pl-5 pr-7 shadow shadow-gray-1 md:top-20 lg:left-[25%]">
+        <div className="absolute flex gap-3 rounded-3xl border border-gray-8 bg-gray-1 py-8 pl-5 pr-7 shadow lg:left-[25%] lg:top-20">
           <Image
             className="h-full w-auto"
             src="/assets/images/meter.svg"
