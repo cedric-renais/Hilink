@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Nav from '@/components/Nav';
 import type { Metadata } from 'next';
 import './globals.css';
@@ -19,6 +20,9 @@ export default function RootLayout({
           <Nav />
         </header>
         <main className="relative overflow-hidden">{children}</main>
+        <footer className="flex-center mb-24">
+          <Footer />
+        </footer>
       </body>
     </html>
   );

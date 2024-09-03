@@ -45,7 +45,7 @@ const Nav = () => {
       <div className="lg:flex-center hidden">
         <Button
           type="button"
-          title="Login"
+          title="Connexion"
           icon="/assets/icons/user.svg"
           variant="button-gray"
         />
@@ -82,7 +82,7 @@ const Nav = () => {
           ))}
           <Button
             type="button"
-            title="Login"
+            title="Connexion"
             icon="/assets/icons/user.svg"
             variant="button-gray"
           />

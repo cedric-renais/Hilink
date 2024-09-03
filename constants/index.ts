@@ -52,3 +52,40 @@ export const features = [
       "De nombreux nouveaux lieux chaque mois, grâce à notre communauté mondiale d'escaladeurs qui partagent leurs meilleures expériences.",
   },
 ];
+
+// FOOTER SECTION
+export const footer_links = [
+  {
+    title: 'En savoir plus',
+    links: [
+      'À propos de Hilink',
+      'Communiqués de presse',
+      'Environnement',
+      "Offres d'emploi",
+      'Politique de confidentialité',
+      'Contactez-nous',
+    ],
+  },
+  {
+    title: 'Notre communauté',
+    links: ['Climbing hilink', 'Hiking hilink', 'Hilink kinthill'],
+  },
+];
+
+export const footer_contact_info = {
+  title: 'Contactez-nous',
+  links: [
+    { title: 'Administrateur', value: '123-456-7890' },
+    { title: 'Communication', value: 'contact@hilink.com' },
+  ],
+};
+
+export const socials = {
+  title: 'Social',
+  links: [
+    { name: 'Facebook', icon: '/assets/icons/facebook.svg' },
+    { name: 'Instagram', icon: '/assets/icons/instagram.svg' },
+    { name: 'Twitter', icon: '/assets/icons/twitter.svg' },
+    { name: 'Youtube', icon: '/assets/icons/youtube.svg' },
+  ],
+};
